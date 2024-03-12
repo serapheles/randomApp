@@ -1,1 +1,4 @@
 # randomApp
+Absolutely couldn't get SafeArgs to work. Best as I could tell, I got the packages to install correctly (I could build fine and Android Studio wasn't complaining, at least), but for some reason it simply wasn't recognizing the FragmentDirections classes SafeArgs was supposed to be creating, so I switched to using Bundles. Unfortunately the examples on the page the directions linked to for using Bundles didn't work (I think the Navigation based approach shown is depreciated, or at least specific to certain circumstances). Most of what I found on passing information, after ignoring Kotlin focused examples, was either based on Activities (instead of the Fragments we are using), used global values, or used explict Intents.
+
+Going forward, if I ever need to build an android app like this I'll keep information passing in mind while in the designing phase.
